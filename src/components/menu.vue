@@ -15,11 +15,12 @@
           </template>
           <el-menu-item-group>
             <template slot="title">风控测试</template>
-            <el-menu-item index="/A">选项1</el-menu-item>
-            <el-menu-item index="/B">选项2</el-menu-item>
+            <el-menu-item index="/A">测试1</el-menu-item>
+            <el-menu-item index="/B">测试2</el-menu-item>
           </el-menu-item-group>
           <el-menu-item-group title="d3测试">
-            <el-menu-item index="/first">选项3</el-menu-item>
+            <el-menu-item index="/d3_first">基础</el-menu-item>
+            <el-menu-item index="/d3_second">应用</el-menu-item>
           </el-menu-item-group>
           <el-submenu index="1-4">
             <template slot="title">选项4</template>
@@ -28,7 +29,7 @@
         </el-submenu>
       </el-menu>
     </el-col>
-    <el-col :span="20">
+    <el-col :span="20" class="right">
       <router-view></router-view>
     </el-col>
   </el-row>
@@ -46,5 +47,9 @@
   }
   .el-col,.el-col ul{
     height: 100%;
+  }
+  .right {
+    height: 100%;
+    overflow-y:auto;
   }
 </style>
