@@ -20,7 +20,8 @@
           </el-menu-item-group>
           <el-menu-item-group title="d3测试">
             <el-menu-item index="/d3_first">基础</el-menu-item>
-            <el-menu-item index="/d3_second">应用</el-menu-item>
+            <el-menu-item index="/d3_second">应用1</el-menu-item>
+            <el-menu-item index="/d3_three">应用2</el-menu-item>
           </el-menu-item-group>
           <el-submenu index="1-4">
             <template slot="title">选项4</template>
