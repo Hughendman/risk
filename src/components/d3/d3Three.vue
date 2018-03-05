@@ -1,6 +1,5 @@
 <template>
   <div class="d3">
-    <div id="credit">Inspired by <a href="http://blog.pixelbreaker.com/polarclock/">pixelbreaker</a></div>
   </div>
 
 </template>
@@ -122,10 +121,10 @@
 
 <style >
   .d3 {
-    background: #222;
+    background: #fff;
     margin: auto;
     width: 80%;
-    height: 100%;
+    height: 80%;
   }
 
   .arc-text {

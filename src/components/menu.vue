@@ -10,23 +10,20 @@
         active-text-color="#ffd04b">
         <el-submenu index="1">
           <template slot="title">
-            <i class="el-icon-location"></i>
+            <i class="el-icon-tickets"></i>
             <span>风控平台</span>
           </template>
-          <el-menu-item-group>
-            <template slot="title">风控测试</template>
-            <el-menu-item index="/A">测试1</el-menu-item>
-            <el-menu-item index="/B">测试2</el-menu-item>
-          </el-menu-item-group>
-          <el-menu-item-group title="d3测试">
-            <el-menu-item index="/d3_first">基础</el-menu-item>
-            <el-menu-item index="/d3_second">应用1</el-menu-item>
-            <el-menu-item index="/d3_three">应用2</el-menu-item>
-          </el-menu-item-group>
-          <el-submenu index="1-4">
-            <template slot="title">选项4</template>
-            <el-menu-item index="1-4-1">选项1</el-menu-item>
-          </el-submenu>
+          <el-menu-item index="/A">测试1</el-menu-item>
+          <el-menu-item index="/B">测试2</el-menu-item>
+        </el-submenu>
+        <el-submenu index="2">
+          <template slot="title">
+            <i class="el-icon-location"></i>
+            <span>d3使用</span>
+          </template>
+          <el-menu-item index="/d3_first">基础</el-menu-item>
+          <el-menu-item index="/d3_second">应用1</el-menu-item>
+          <el-menu-item index="/d3_three">应用2</el-menu-item>
         </el-submenu>
       </el-menu>
     </el-col>
