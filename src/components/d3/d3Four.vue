@@ -68,8 +68,8 @@
           }
         },
         mounted(){
-          var width = 500,
-            height = 500;
+          var width = 600,
+            height = 600;
 
 //定义数据转换函数
           var tree = d3.layout.tree()
@@ -83,7 +83,7 @@
             .attr("width",width)
             .attr("height",height)
             .append("g")
-            .attr("transform","translate(40,0)")
+            .attr("transform","translate(50,0)")
 
 //读取json文件，进行绘图
             var root = this.data;
