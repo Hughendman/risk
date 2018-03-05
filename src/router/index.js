@@ -6,6 +6,7 @@ import Menu from '@/components/menu'
 import D3First from '@/components/d3/d3First'
 import D3Second from '@/components/d3/d3Second'
 import D3Three from '@/components/d3/d3Three'
+import D3Four from '@/components/d3/d3Four'
 
 Vue.use(Router)
 
@@ -31,6 +32,10 @@ export default new Router({
         path:'d3_three',
         name: 'D3Three',
         component: D3Three
+      },{
+        path:'d3_four',
+        name: 'D3Four',
+        component: D3Four
       },{
         path:'A',
         name: 'Hotel',

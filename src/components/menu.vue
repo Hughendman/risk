@@ -24,6 +24,7 @@
           <el-menu-item index="/d3_first">基础</el-menu-item>
           <el-menu-item index="/d3_second">应用1</el-menu-item>
           <el-menu-item index="/d3_three">应用2</el-menu-item>
+          <el-menu-item index="/d3_four">应用3</el-menu-item>
         </el-submenu>
       </el-menu>
     </el-col>
