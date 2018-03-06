@@ -33,6 +33,7 @@
             <span>d3深入</span>
           </template>
           <el-menu-item index="/d3_circles">circles</el-menu-item>
+          <el-menu-item index="/d3_init">init</el-menu-item>
         </el-submenu>
       </el-menu>
     </el-col>
