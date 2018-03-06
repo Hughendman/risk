@@ -7,6 +7,7 @@ import D3First from '@/components/d3/d3First'
 import D3Second from '@/components/d3/d3Second'
 import D3Three from '@/components/d3/d3Three'
 import D3Four from '@/components/d3/d3Four'
+import D3Circles from '@/components/d3_dic/d3_circles'
 
 Vue.use(Router)
 
@@ -36,6 +37,10 @@ export default new Router({
         path:'d3_four',
         name: 'D3Four',
         component: D3Four
+      },{
+        path:'d3_circles',
+        name: 'D3Circles',
+        component: D3Circles
       },{
         path:'A',
         name: 'Hotel',

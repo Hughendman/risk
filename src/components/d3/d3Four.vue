@@ -131,7 +131,7 @@
   .d3 {
     background: #fff;
     margin: auto;
-    width: 80%;
+    width: 60%;
     height: 80%;
   }
   .node circle{

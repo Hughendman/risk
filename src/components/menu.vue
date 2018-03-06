@@ -7,6 +7,7 @@
         background-color="#545c64"
         router
         text-color="#fff"
+        :unique-opened="true"
         active-text-color="#ffd04b">
         <el-submenu index="1">
           <template slot="title">
@@ -25,6 +26,13 @@
           <el-menu-item index="/d3_second">应用1</el-menu-item>
           <el-menu-item index="/d3_three">应用2</el-menu-item>
           <el-menu-item index="/d3_four">应用3</el-menu-item>
+        </el-submenu>
+        <el-submenu index="3">
+          <template slot="title">
+            <i class="el-icon-printer"></i>
+            <span>d3深入</span>
+          </template>
+          <el-menu-item index="/d3_circles">circles</el-menu-item>
         </el-submenu>
       </el-menu>
     </el-col>
