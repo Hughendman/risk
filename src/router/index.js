@@ -10,6 +10,7 @@ import D3Four from '@/components/d3/d3Four'
 import D3Circles from '@/components/d3_dic/d3_circles'
 import D3Init from '@/components/d3_dic/d3_init'
 import D3Chord from '@/components/d3_dic/d3_chord'
+import D3Test from '@/components/d3_dic/d3_test'
 
 Vue.use(Router)
 
@@ -51,6 +52,10 @@ export default new Router({
         path:'d3_chord',
         name: 'D3Chord',
         component: D3Chord
+      },{
+        path:'d3_test',
+        name: 'D3Test',
+        component: D3Test
       },{
         path:'A',
         name: 'Hotel',

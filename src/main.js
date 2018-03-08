@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import Vuex from 'vuex'
 
+import nav from './components/public/nav.vue'
+Vue.component('nav', nav);
 
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
