@@ -1,4 +1,3 @@
-
 (function() {
   function JW() {
     this.siteId = "1234";
@@ -134,5 +133,9 @@
   } catch(a) {
     g(a, "m")
   }
-
+  document.addEventListener("click",function(e){
+    var name = document.cookie;
+    var label = e.target.innerText;
+    _jwo.push(["_event","action","cate",label,"value",name]);
+  })
 })();
