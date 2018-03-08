@@ -47,7 +47,10 @@
 
 <script>
     export default {
-        name: "menu"
+        name: "menu",
+        created(){
+          document.cookie = "username=yinxs"
+        }
     }
 </script>
 
